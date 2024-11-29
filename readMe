@@ -1,0 +1,16 @@
+WFToken Contract
+
+
+Description
+
+The WFToken contract is a simple implementation of an ERC-20-like token with basic functionalities for minting and burning tokens. It is designed to store token details, manage balances, and allow users to increase or decrease the token supply.
+Features
+
+    Token Details:
+        Public variables store the token's name, abbreviation, and total supply.
+    Mapping of Balances:
+        A mapping links addresses to their respective balances.
+    Minting Functionality:
+        Allows the creation of new tokens and updates the total supply and the balance of the specified address.
+    Burning Functionality:
+        Enables token destruction, reducing both the total supply and the balance of the specified address, with checks to ensure sufficient balance.
